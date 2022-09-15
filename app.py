@@ -4,8 +4,8 @@ import pandas as pd
 import requests
 
 
-movies_dict = pickle.load(open('movie_dict.pkl', 'rb'))
-similarity = pickle.load(open('similarity.pkl', 'rb'))
+movies_dict = pickle.load(open('pickel_files/movie_dict.pkl', 'rb'))
+similarity = pickle.load(open('pickel_files/similarity.pkl', 'rb'))
 movies = pd.DataFrame(movies_dict)
 
 
